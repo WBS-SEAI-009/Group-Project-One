@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Project</title>
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
     <!-- header -->
-    <section></section>
+    <nav id="nav-bar">
+      <a class="nav-logo" href="#">
+        <img src="assets/images/ogTurboJet.png" alt="Logo" />
+      </a>
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+        <li><a href="#app-features">App Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
 
     <!-- hero -->
     <section></section>
@@ -32,6 +51,6 @@
 
     <!-- footer -->
     <section></section>
-    <script src="assets/script.js"></script>
+    <script src="assets/javascript/script.js"></script>
   </body>
 </html>
