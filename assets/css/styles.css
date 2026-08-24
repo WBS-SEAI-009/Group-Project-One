@@ -8,17 +8,18 @@ body {
     font-family: 'Agency FB';
     background-color: #000000;
     user-select: none;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     margin: 0px;
     border-radius: 10px;
     background-image: url(../img/sectionHeroBackground_highres.png);
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 
     div {
         font-weight: bold;
         font-size: large;
         border-radius: 10px;
+        margin: 0px 0px 20px 0px;
         padding: 20px;
                 color: #D10056;
         border: #D10056 1px solid;
@@ -28,11 +29,16 @@ body {
     }
     div.header {
         max-width: 350px;
+    }
+    div.content {
+        max-width: 600px;
+    }
+    div.header, div.content {
         background: rgba(255, 185, 0, 0.35);
         text-shadow: -1.5px 0 #FFB900, 0 1.5px #FFB900, 1.5px 0 #FFB900, 0 -1.5px #FFB900;
     }
-    div.header:hover{
-        box-shadow: inset 0 0 20px #B2054C;
+    div.header:hover, div.content:hover {
+        box-shadow: inset 0 0 30px #B2054C;
         transition: box-shadow 0.3s ease-out;
     }
     div.button {
