@@ -37,3 +37,26 @@
   display: block;
   border-radius: 50%;
 }
+
+@media (max-width: 600px) {
+  #site-footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #site-footer .footer-logo {
+    order: 1;
+  }
+
+  #site-footer .footer-socials {
+    order: 2;
+    flex: none;
+    justify-content: center;
+  }
+
+  #site-footer .footer-copyright {
+    order: 3;
+    flex: none;
+    text-align: center;
+  }
+}
