@@ -1,0 +1,153 @@
+<style>
+  
+  
+
+  body{
+    margin:0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Source Serif 4', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  
+
+  /* ---------- crew section ---------- */
+  .crew{
+    
+  }
+
+  .crew-head{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+  }
+
+  .crew-head h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    margin: 10px 0 0;
+  }
+
+  .crew-head p{
+    max-width: 40ch;
+    color: var(--paper-dim);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px 40px;
+  }
+
+  @media (max-width: 860px){
+    .grid{ grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px){
+    .grid{ grid-template-columns: 1fr; }
+  }
+
+  .card{
+    text-align:center;
+  }
+
+  .portrait{
+    position: relative;
+    width: 148px;
+    height: 148px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    cursor: default;
+  }
+
+  .portrait .layer{
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Anton', sans-serif;
+    font-size: 2.1rem;
+    letter-spacing: 0.02em;
+    transition: transform 0.35s cubic-bezier(.2,.8,.2,1), opacity 0.35s ease;
+  }
+
+  .portrait .base{
+    background: var(--paper-dim);
+    color: var(--ink);
+  }
+
+  .portrait .red{
+    background: transparent;
+    color: var(--red);
+    mix-blend-mode: normal;
+    opacity: 0;
+    transform: translate(0,0);
+  }
+
+  .portrait .mustard{
+    background: transparent;
+    color: var(--mustard);
+    opacity: 0;
+    transform: translate(0,0);
+  }
+
+  .card:hover .portrait .red,
+  .card:focus-within .portrait .red{
+    opacity: 0.75;
+    transform: translate(-5px,-4px);
+  }
+  .card:hover .portrait .mustard,
+  .card:focus-within .portrait .mustard{
+    opacity: 0.65;
+    transform: translate(5px,4px);
+  }
+  .card:hover .portrait .base,
+  .card:focus-within .portrait .base{
+    transform: translate(0,0) scale(0.98);
+  }
+
+  .card .name{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+    color: var(--paper);
+  }
+
+  .card .role{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1ac4e6;
+    margin-bottom: 10px;
+  }
+
+  .card .bio{
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--paper-dim);
+    max-width: 26ch;
+    margin: 0 auto;
+  }
+
+  
+    img.round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+ 
+</style>
