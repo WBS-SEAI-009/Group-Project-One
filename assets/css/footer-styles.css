@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2rem;
-  background: #36454f;
+  background: #003c62;
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
   border-top: 1px #d10056 solid;
 }
@@ -43,7 +43,7 @@
 
 #site-footer .footer-socials a:hover img {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 6px #d10056);
+  filter: drop-shadow(0 0 6px #ffb900);
 }
 
 @media (max-width: 600px) {
