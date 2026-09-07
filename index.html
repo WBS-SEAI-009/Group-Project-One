@@ -6,10 +6,36 @@
     <title>My Project</title>
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Text+Me+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <!-- navbar -->
-    <section></section>
+    <!-- header -->
+    <nav id="nav-bar">
+      <a class="nav-logo" href="#">
+        <img src="assets/images/ogTurboJet.png" alt="Logo" />
+      </a>
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+        <li><a href="#app-features">App Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
 
     <!-- hero section -->
     <section class="styleSectionHero">
@@ -47,14 +73,43 @@
     <!-- app features -->
     <section></section>
 
-    <!-- why choose us? -->
+    <!-- why choose us -->
     <section></section>
 
     <!-- price cards -->
     <section></section>
 
     <!-- footer -->
-    <section></section>
-    <script src="assets/script.js"></script>
+    <footer id="site-footer">
+      <span class="footer-copyright"
+        >&copy; 2026 OG TurboJet. All rights reserved.</span
+      >
+      <a class="footer-logo" href="#">
+        <img src="./assets/images/ogTurboJet.png" alt="Logo" />
+      </a>
+      <ul class="footer-socials">
+        <li>
+          <a href="#" aria-label="Instagram"
+            ><img src="assets/icons/instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="YouTube"
+            ><img src="assets/icons/youtube.svg" alt="YouTube"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="X"
+            ><img src="assets/icons/x.svg" alt="X"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Facebook"
+            ><img src="assets/icons/facebook.svg" alt="Facebook"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
   </body>
 </html>
