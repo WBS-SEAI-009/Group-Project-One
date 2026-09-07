@@ -3,35 +3,219 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Text+Me+One&display=swap"
+      rel="stylesheet"
+    />
     <title>My Project</title>
-
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
   </head>
   <body>
-    <!-- navbar -->
-    <section></section>
+    <!-- header -->
+    <nav id="nav-bar">
+      <a class="nav-logo" href="#">
+        <img src="assets/images/ogTurboJet.png" alt="Logo" />
+      </a>
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+        <li><a href="#app-features">App Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
 
     <!-- hero section -->
-    <section></section>
+    <section class="styleSectionHero">
+      <div class="sectionWrapper">
+        <div class="heroWrap">
+          <div class="heroBase heroHeader">
+            App with an amazing service you've never seen before
+          </div>
+          <div class="heroBase heroContent">
+            <h2>Have you ever seen a floating eScooter?</h2>
+            <p>
+              Major cities are extending over huge areas.
+              <br />Many people live together in small spaces and the people
+              need to move from point A to point B. <br />If a lot of people
+              choose to do this at the same time you have the perfect recipe for
+              traffic jams. <br />We offer you the solution to conquer the sky.
+              With our turbo jet eScooter you can float through the sky.
+              <br /><br />For you the sky is the limit!
+            </p>
+          </div>
+          <div class="heroBase heroButton">Try it out</div>
+        </div>
+        <div class="heroBase heroAppPreview">
+          <h2>A unique demo</h2>
+          <p>See a demo version of this application.</p>
+          <div class="heroBase heroButton">Execute</div>
+        </div>
+      </div>
+    </section>
 
     <!-- trusted companies -->
-    <section></section>
+    <section class="trusted-section">
+      <h3>Trusted by Leading Mobility Partners</h3>
+      <div class="trusted-logo">
+        <img src="assets/images/photo_2026-08-25_12-08-49 2.jpg" alt="" />
+        <img src="assets/images/photo_2026-08-25_12-08-49 3.jpg" alt="" />
+        <img src="assets/images/photo_2026-08-25_12-08-49 4.jpg" alt="" />
+        <img src="assets/images/photo_2026-08-25_12-08-49 5.jpg" alt="" />
+        <img src="assets/images/photo_2026-08-25_12-08-49 1.jpg" alt="" />
+      </div>
+    </section>
 
     <!-- video -->
-    <section></section>
+    <section class="video-section">
+      <h3>Ride the Future</h3>
+      <video
+        width="600"
+        height="340"
+        controls
+        src="assets/images/video.mp4"
+        poster="assets/images/img.jpg"
+        autoplay
+        muted
+        loop
+      ></video>
+    </section>
 
     <!-- app features -->
-    <section></section>
+    <section>
+      <div class="sectionAppFeatures" id="app-features">
+        <h2>Unbelieveable features of OG TurboJet</h2>
+        <div class="AppFeatureList">
+          <img
+            class="AppFeatureListElement"
+            src="./assets/images/appfeatures.png"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- why choose us? -->
-    <section></section>
+    <section >
+      
+  <div class="wrap">
+    <h2>Why should you choose our app?</h2>
+
+    <div class="grid">
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/1.png" alt="Convenience & Speed">
+        </div>
+        <div class="name">Convenience &amp; Speed</div>
+        <div class="role">Skip traffic and parking hassles</div>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/2.png" alt="Cost-Effective">
+        </div>
+        <div class="name">Cost-Effective</div>
+        <div class="role">Pay only for what you ride (per-minute or per-trip pricing)</div>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/3.png" alt="Eco-Friendly">
+        </div>
+        <div class="name">Eco-Friendly</div>
+        <div class="role">Zero direct emissions</div>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/4.png" alt="Safety & Reliability">
+        </div>
+        <div class="name">Safety &amp; Reliability</div>
+        <div class="role">Regularly maintained and inspected fleet</div>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/5.png" alt="Seamless Experience">
+        </div>
+        <div class="name">Seamless Experience</div>
+        <div class="role">Easy sign-up, in-app payments, no cash needed</div>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="portrait">
+          <img class="round" src="/assets/images/6.png" alt="Flexibility">
+        </div>
+        <div class="name">Flexibility</div>
+        <div class="role">Available 24/7 in most coverage areas</div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- price cards -->
-    <section></section>
+   <section class="pricing" id="pricing">
+  <h2 class="pricing-title">Get awesome features, without extra charges</h2>
+  <p class="pricing-sub">Choose plan and start riding today </p>
+
+  <div class="price-grid">
+    <div class="price-card">
+      <img src="/assets/images/plan.1.png" alt="Basic plan - $20 per month">
+    </div>
+
+    <div class="price-card">
+      <img src="/assets/images/plan.3.png" alt="Standard plan - $40 per month">
+    </div>
+
+    <div class="price-card">
+      <img src="/assets/images/plan.2.png" alt="Premium plan - $99 per month">
+    </div>
+  </div>
+</section>
 
     <!-- footer -->
-    <section></section>
-    <script src="assets/script.js"></script>
+    <footer id="site-footer">
+      <span class="footer-copyright"
+        >&copy; 2026 OG TurboJet. All rights reserved.</span
+      >
+      <a class="footer-logo" href="#">
+        <img src="./assets/images/ogTurboJet.png" alt="Logo" />
+      </a>
+      <ul class="footer-socials">
+        <li>
+          <a href="#" aria-label="Instagram"
+            ><img src="assets/icons/instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="YouTube"
+            ><img src="assets/icons/youtube.svg" alt="YouTube"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="X"
+            ><img src="assets/icons/x.svg" alt="X"
+          /></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Facebook"
+            ><img src="assets/icons/facebook.svg" alt="Facebook"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
   </body>
 </html>
