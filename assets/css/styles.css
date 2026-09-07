@@ -26,6 +26,19 @@ body {
     color: #333;
 }
 
+.video-section {
+    text-align: center;
+    background-color: #a5dbfd;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.video-section h3 {
+    color: #0d0808;
+    margin-top: 54px;
+    margin-bottom: 45px;
+}
+
 .trusted-logo {
     display: flex;
     justify-content: center;
