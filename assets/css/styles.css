@@ -1,6 +1,7 @@
 @import "sectionHero.css";
 @import url(footer-styles.css);
 @import url(navbar-styles.css);
+@import url(appfeature-styles.css);
 
 h1,
 h2,
@@ -14,6 +15,14 @@ body {
   color: #333;
 }
 
+div.sectionAppFeatures {
+    font-family: Arial, sans-serif;
+    background-color: #007DCC;
+    user-select: none;
+    padding: 20px 40px 20px 40px;
+    margin: 0px;
+    border-radius: 10px;
+}
 .trusted-section {
     text-align: center;
     padding: 60px 20px;
