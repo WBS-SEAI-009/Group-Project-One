@@ -1,0 +1,14 @@
+div.sectionAppFeatures {
+    font-family: Arial;
+    color: white;
+}
+
+div.AppFeatureList {
+  display: flex;
+}
+
+img.AppFeatureListElement {
+    margin: 20px;
+    width: 100%;
+    min-width: 500px;
+}
