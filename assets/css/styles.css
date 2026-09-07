@@ -1,4 +1,4 @@
-@import url("whyC.css");
+@import url('whyC.css');
 @import url('sectionHero.css');
 @import url(footer-styles.css);
 @import url(navbar-styles.css);
@@ -14,7 +14,6 @@ body {
   font-family: 'Time Me One', sans-serif;
   background: #f5f5f5;
   color: #333;
-  .
 }
 
 div.sectionAppFeatures {
